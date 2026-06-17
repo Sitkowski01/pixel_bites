@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="crispEdges">
+  <rect width="32" height="32" fill="#0b0c10"/>
+  <!-- górna bułka -->
+  <rect x="6"  y="7"  width="20" height="4" fill="#ff8c00"/>
+  <rect x="8"  y="5"  width="16" height="2" fill="#ff8c00"/>
+  <!-- sałata -->
+  <rect x="5"  y="11" width="22" height="2" fill="#7CFC00"/>
+  <!-- kotlet -->
+  <rect x="6"  y="13" width="20" height="4" fill="#8B4513"/>
+  <!-- ser / sos neon -->
+  <rect x="5"  y="17" width="22" height="2" fill="#ffd700"/>
+  <!-- dolna bułka -->
+  <rect x="6"  y="19" width="20" height="4" fill="#ff8c00"/>
+  <!-- neonowy akcent -->
+  <rect x="4"  y="24" width="24" height="2" fill="#ff007f"/>
+</svg>

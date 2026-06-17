@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pixel Bites — Retro Arcade Burger Bar w Szczecinie</title>
+    <meta name="description" content="Pixel Bites to restauracja burgerowa w klimacie retro arcade w Szczecinie. Burgery premium, neonowe shake'i, Arcade Nights i program lojalnościowy Pixel Pass. Eat. Play. Repeat." />
+    <meta name="theme-color" content="#0b0c10" />
+    <meta name="author" content="Pixel Bites" />
+    <link rel="canonical" href="https://pixelbites.pl/" />
+
+    <!-- Favicon / ikony -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:site_name" content="Pixel Bites" />
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:title" content="Pixel Bites — Retro Arcade Burger Bar w Szczecinie" />
+    <meta property="og:description" content="Burgery premium, neonowe shake'i i klimat retro arcade. Eat. Play. Repeat." />
+    <meta property="og:url" content="https://pixelbites.pl/" />
+    <meta property="og:image" content="https://pixelbites.pl/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Pixel Bites — retro arcade burger bar" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pixel Bites — Retro Arcade Burger Bar w Szczecinie" />
+    <meta name="twitter:description" content="Burgery premium, neonowe shake'i i klimat retro arcade. Eat. Play. Repeat." />
+    <meta name="twitter:image" content="https://pixelbites.pl/og-image.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Dane strukturalne (JSON-LD) — lokalna restauracja -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Pixel Bites",
+      "description": "Restauracja burgerowa w klimacie retro arcade w Szczecinie.",
+      "url": "https://pixelbites.pl/",
+      "image": "https://pixelbites.pl/og-image.png",
+      "servesCuisine": ["Burgers", "American", "Fast Food"],
+      "priceRange": "$$",
+      "telephone": "+48530082882",
+      "email": "mjgweb@kontakt.pl",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ul. Maksymiliana Golisza 6G",
+        "addressLocality": "Szczecin",
+        "addressCountry": "PL"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "12:00",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Friday", "Saturday"],
+          "opens": "12:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "12:00",
+          "closes": "21:00"
+        }
+      ],
+      "acceptsReservations": "True"
+    }
+    </script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Treść awaryjna dla crawlerów / przeglądarek bez JS -->
+    <noscript>
+        <h1>Pixel Bites — Retro Arcade Burger Bar</h1>
+        <p>Restauracja burgerowa w klimacie retro arcade w Szczecinie.</p>
+        <p>Adres: ul. Maksymiliana Golisza 6G, Szczecin</p>
+        <p>Telefon: +48 530 082 882 · E-mail: mjgweb@kontakt.pl</p>
+        <p>Godziny: Pon–Czw 12:00–22:00 · Pt–Sob 12:00–00:00 · Niedz 12:00–21:00</p>
+    </noscript>
+
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
