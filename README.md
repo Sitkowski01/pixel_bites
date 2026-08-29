@@ -85,12 +85,12 @@ public/                materiały (mp4 / png) serwowane spod „/"
 | Przewijanie | Lenis |
 | Tło 3D | Three.js |
 
-## Czego tu nie ma
+## Zakres
 
-- **Brak testów** — to strona prezentacyjna bez logiki biznesowej; ryzyko regresji
-  dotyczy wyglądu, którego test jednostkowy i tak nie złapie. Sensowne byłyby tu
-  raczej zrzuty porównawcze niż asercje.
-- **Style zostały przeniesione bez zmian** z oryginalnego pliku, razem z jego
-  konwencjami nazewniczymi — celem było przepisanie jeden do jednego, nie porządki
-  w CSS przy okazji.
-- Treść jest wpisana w komponenty; strona nie ma źródła danych ani panelu.
+Zadaniem było **przepisanie jeden do jednego**, więc style przeszły bez zmian razem
+z konwencjami oryginału — porządki w CSS byłyby tu osobną zmianą, która utrudniłaby
+porównanie efektu przed i po. Treść jest w komponentach; strona nie potrzebuje
+źródła danych ani panelu.
+
+Ryzyko regresji dotyczy tu wyglądu i płynności, a nie logiki — właściwym narzędziem
+są zrzuty porównawcze, nie asercje jednostkowe.
